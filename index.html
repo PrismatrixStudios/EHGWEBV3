@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Honor Guard - Log In</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-red-900 text-white">
+    <div class="container mx-auto p-5">
+        <h1 class="text-3xl mb-5">Log In</h1>
+        <form id="loginForm">
+            <input type="text" id="userId" placeholder="User ID" required class="p-2 mb-3 w-full">
+            <input type="password" id="password" placeholder="Password" required class="p-2 mb-3 w-full">
+            <button type="submit" class="bg-red-600 p-2 w-full">Log In</button>
+        </form>
+        <div id="errorMessage" class="text-red-400 mt-3"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
