@@ -1,11 +1,42 @@
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
+    background-color: #8B0000; /* Dark Red */
+    color: white;
 }
 
 .container {
     max-width: 600px;
     margin: auto;
+    padding: 20px;
+    background-color: #A52A2A; /* Brownish Red */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #FF4500; /* Orange Red */
+}
+
+button {
+    background-color: #B22222; /* Firebrick Red */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #CD5C5C; /* Indian Red */
+}
+
+.announcement {
+    background-color: #C71585; /* Medium Violet Red */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
 }
 
 .hidden {
